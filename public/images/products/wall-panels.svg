@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5ebe0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e3d5ca;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c4a882;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a88b6a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg4)"/>
+  <!-- Wall with panels -->
+  <rect x="100" y="60" width="600" height="480" fill="#f0ebe3"/>
+  <!-- Vertical panels -->
+  <rect x="120" y="80" width="70" height="440" rx="2" fill="url(#panel)" opacity="0.9"/>
+  <rect x="195" y="80" width="70" height="440" rx="2" fill="url(#panel)" opacity="0.85"/>
+  <rect x="270" y="80" width="70" height="440" rx="2" fill="url(#panel)" opacity="0.9"/>
+  <rect x="345" y="80" width="70" height="440" rx="2" fill="url(#panel)" opacity="0.85"/>
+  <rect x="420" y="80" width="70" height="440" rx="2" fill="url(#panel)" opacity="0.9"/>
+  <rect x="495" y="80" width="70" height="440" rx="2" fill="url(#panel)" opacity="0.85"/>
+  <rect x="570" y="80" width="70" height="440" rx="2" fill="url(#panel)" opacity="0.9"/>
+  <rect x="645" y="80" width="35" height="440" rx="2" fill="url(#panel)" opacity="0.85"/>
+  <!-- Wood grain lines -->
+  <line x1="140" y1="100" x2="145" y2="500" stroke="#b8977a" stroke-width="0.5" opacity="0.4"/>
+  <line x1="160" y1="90" x2="158" y2="510" stroke="#b8977a" stroke-width="0.5" opacity="0.3"/>
+  <line x1="215" y1="95" x2="218" y2="505" stroke="#b8977a" stroke-width="0.5" opacity="0.4"/>
+  <line x1="240" y1="100" x2="238" y2="500" stroke="#b8977a" stroke-width="0.5" opacity="0.3"/>
+  <line x1="290" y1="90" x2="293" y2="510" stroke="#b8977a" stroke-width="0.5" opacity="0.4"/>
+  <line x1="370" y1="95" x2="368" y2="505" stroke="#b8977a" stroke-width="0.5" opacity="0.4"/>
+  <line x1="445" y1="100" x2="448" y2="500" stroke="#b8977a" stroke-width="0.5" opacity="0.3"/>
+  <line x1="520" y1="90" x2="518" y2="510" stroke="#b8977a" stroke-width="0.5" opacity="0.4"/>
+  <line x1="595" y1="95" x2="598" y2="505" stroke="#b8977a" stroke-width="0.5" opacity="0.4"/>
+  <!-- Decorative shelf -->
+  <rect x="250" y="250" width="300" height="8" rx="2" fill="#8b7355"/>
+  <rect x="250" y="248" width="300" height="3" fill="#a08060"/>
+  <!-- Plant on shelf -->
+  <rect x="380" y="220" width="20" height="30" rx="3" fill="#d4a574"/>
+  <ellipse cx="390" cy="210" rx="20" ry="18" fill="#6b8f56"/>
+  <ellipse cx="380" cy="205" rx="14" ry="14" fill="#7da668"/>
+  <ellipse cx="400" cy="208" rx="12" ry="12" fill="#5c8248"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500">
+  <defs>
+    <linearGradient id="abg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5ebe0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d5bdaf;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="500" fill="url(#abg)"/>
+  <!-- Room interior sketch style -->
+  <!-- Back wall -->
+  <rect x="60" y="40" width="480" height="380" fill="#f0ebe3" stroke="#d6ccc2" stroke-width="1"/>
+  <!-- Window -->
+  <rect x="200" y="70" width="200" height="160" fill="#e8f4f8" stroke="#c4c4c4" stroke-width="2"/>
+  <line x1="300" y1="70" x2="300" y2="230" stroke="#c4c4c4" stroke-width="1.5"/>
+  <line x1="200" y1="150" x2="400" y2="150" stroke="#c4c4c4" stroke-width="1.5"/>
+  <!-- Curtains -->
+  <path d="M195,65 Q190,150 195,235" stroke="#d5bdaf" stroke-width="3" fill="none"/>
+  <path d="M405,65 Q410,150 405,235" stroke="#d5bdaf" stroke-width="3" fill="none"/>
+  <!-- False ceiling indication -->
+  <rect x="60" y="40" width="480" height="20" fill="#f8f4ef" stroke="#e0d5c8" stroke-width="0.5"/>
+  <line x1="180" y1="40" x2="180" y2="60" stroke="#e0d5c8" stroke-width="0.5"/>
+  <line x1="300" y1="40" x2="300" y2="60" stroke="#e0d5c8" stroke-width="0.5"/>
+  <line x1="420" y1="40" x2="420" y2="60" stroke="#e0d5c8" stroke-width="0.5"/>
+  <!-- Lights in ceiling -->
+  <circle cx="240" cy="50" r="5" fill="#ffd700" opacity="0.3"/>
+  <circle cx="360" cy="50" r="5" fill="#ffd700" opacity="0.3"/>
+  <!-- Wall panels on side -->
+  <rect x="65" y="65" width="80" height="350" fill="#c4a882" opacity="0.4"/>
+  <line x1="85" y1="65" x2="85" y2="415" stroke="#b8977a" stroke-width="0.5" opacity="0.3"/>
+  <line x1="105" y1="65" x2="105" y2="415" stroke="#b8977a" stroke-width="0.5" opacity="0.3"/>
+  <line x1="125" y1="65" x2="125" y2="415" stroke="#b8977a" stroke-width="0.5" opacity="0.3"/>
+  <!-- Floor -->
+  <rect x="60" y="420" width="480" height="50" fill="#d6ccc2"/>
+  <!-- Furniture silhouette -->
+  <rect x="150" y="310" width="300" height="110" rx="10" fill="#a88b6a" opacity="0.4"/>
+  <!-- UPVC door on right -->
+  <rect x="455" y="100" width="80" height="315" rx="2" fill="#e8ddd0" stroke="#c4a882" stroke-width="2"/>
+  <rect x="460" y="110" width="70" height="90" rx="2" fill="none" stroke="#d6ccc2" stroke-width="1"/>
+  <rect x="460" y="210" width="70" height="90" rx="2" fill="none" stroke="#d6ccc2" stroke-width="1"/>
+  <rect x="460" y="310" width="70" height="90" rx="2" fill="none" stroke="#d6ccc2" stroke-width="1"/>
+  <circle cx="520" cy="265" r="4" fill="#8b7355"/>
+  <!-- "25+ Years" badge -->
+  <circle cx="510" cy="460" r="35" fill="#fb923c" opacity="0.9"/>
+  <text x="510" y="456" font-family="system-ui,sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="700">25+</text>
+  <text x="510" y="472" font-family="system-ui,sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="600">YEARS</text>
+</svg>

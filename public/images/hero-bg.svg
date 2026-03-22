@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c1810;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3d2518;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1008;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#fb923c;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="wall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a3828;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3a2a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#heroBg)"/>
+  <!-- Ambient light from top -->
+  <ellipse cx="960" cy="0" rx="800" ry="500" fill="url(#glow)"/>
+  <!-- Room impression - back wall -->
+  <rect x="300" y="100" width="1320" height="800" fill="url(#wall)" opacity="0.3"/>
+  <!-- Window glow on left -->
+  <rect x="350" y="180" width="280" height="400" rx="3" fill="#5a4430" opacity="0.4"/>
+  <rect x="360" y="190" width="260" height="380" fill="#6b5a48" opacity="0.3"/>
+  <!-- Light bars from window -->
+  <rect x="360" y="190" width="125" height="185" fill="#fb923c" opacity="0.04"/>
+  <rect x="495" y="190" width="125" height="185" fill="#fb923c" opacity="0.03"/>
+  <rect x="360" y="385" width="125" height="185" fill="#fb923c" opacity="0.03"/>
+  <rect x="495" y="385" width="125" height="185" fill="#fb923c" opacity="0.04"/>
+  <!-- Floor reflection -->
+  <rect x="0" y="750" width="1920" height="330" fill="#1a0f08" opacity="0.5"/>
+  <line x1="0" y1="750" x2="1920" y2="750" stroke="#4a3828" stroke-width="1" opacity="0.4"/>
+  <!-- Right side - door suggestion -->
+  <rect x="1300" y="200" width="220" height="550" rx="3" fill="#4a3828" opacity="0.5"/>
+  <rect x="1310" y="210" width="200" height="530" fill="#3d2a1a" opacity="0.3"/>
+  <!-- Door panels -->
+  <rect x="1320" y="220" width="180" height="150" rx="3" fill="none" stroke="#5a4430" stroke-width="1" opacity="0.3"/>
+  <rect x="1320" y="390" width="180" height="150" rx="3" fill="none" stroke="#5a4430" stroke-width="1" opacity="0.3"/>
+  <rect x="1320" y="560" width="180" height="160" rx="3" fill="none" stroke="#5a4430" stroke-width="1" opacity="0.3"/>
+  <!-- Ceiling panel lines -->
+  <line x1="300" y1="100" x2="0" y2="0" stroke="#4a3828" stroke-width="1" opacity="0.2"/>
+  <line x1="960" y1="100" x2="960" y2="0" stroke="#4a3828" stroke-width="1" opacity="0.2"/>
+  <line x1="1620" y1="100" x2="1920" y2="0" stroke="#4a3828" stroke-width="1" opacity="0.2"/>
+  <!-- Subtle warm particles/dust -->
+  <circle cx="500" cy="300" r="2" fill="#fb923c" opacity="0.1"/>
+  <circle cx="800" cy="200" r="1.5" fill="#fb923c" opacity="0.08"/>
+  <circle cx="1200" cy="400" r="2" fill="#fb923c" opacity="0.06"/>
+  <circle cx="700" cy="500" r="1" fill="#fb923c" opacity="0.1"/>
+  <circle cx="1400" cy="300" r="1.5" fill="#fb923c" opacity="0.08"/>
+</svg>

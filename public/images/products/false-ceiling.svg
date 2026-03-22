@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#faf3eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ede0d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ceil" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f0ea;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg3)"/>
+  <!-- Room perspective -->
+  <!-- Back wall -->
+  <polygon points="200,120 600,120 600,420 200,420" fill="#f0ebe3"/>
+  <!-- Left wall -->
+  <polygon points="50,50 200,120 200,420 50,520" fill="#e8ddd0"/>
+  <!-- Right wall -->
+  <polygon points="750,50 600,120 600,420 750,520" fill="#e0d5c8"/>
+  <!-- Ceiling -->
+  <polygon points="50,50 200,120 600,120 750,50" fill="url(#ceil)"/>
+  <!-- False ceiling panel lines -->
+  <line x1="150" y1="70" x2="300" y2="120" stroke="#e0d5c8" stroke-width="1"/>
+  <line x1="250" y1="55" x2="370" y2="120" stroke="#e0d5c8" stroke-width="1"/>
+  <line x1="400" y1="50" x2="400" y2="120" stroke="#e0d5c8" stroke-width="1"/>
+  <line x1="550" y1="55" x2="430" y2="120" stroke="#e0d5c8" stroke-width="1"/>
+  <line x1="650" y1="70" x2="500" y2="120" stroke="#e0d5c8" stroke-width="1"/>
+  <!-- Recessed light circles -->
+  <circle cx="300" cy="85" r="12" fill="#fff8e7" stroke="#f0e0c0" stroke-width="2"/>
+  <circle cx="300" cy="85" r="5" fill="#ffd700" opacity="0.4"/>
+  <circle cx="400" cy="78" r="12" fill="#fff8e7" stroke="#f0e0c0" stroke-width="2"/>
+  <circle cx="400" cy="78" r="5" fill="#ffd700" opacity="0.4"/>
+  <circle cx="500" cy="85" r="12" fill="#fff8e7" stroke="#f0e0c0" stroke-width="2"/>
+  <circle cx="500" cy="85" r="5" fill="#ffd700" opacity="0.4"/>
+  <!-- Light glow effect -->
+  <ellipse cx="300" cy="200" rx="60" ry="80" fill="#ffd700" opacity="0.03"/>
+  <ellipse cx="400" cy="200" rx="60" ry="80" fill="#ffd700" opacity="0.03"/>
+  <ellipse cx="500" cy="200" rx="60" ry="80" fill="#ffd700" opacity="0.03"/>
+  <!-- Floor -->
+  <polygon points="50,520 200,420 600,420 750,520" fill="#d6ccc2"/>
+  <!-- Badge -->
+  <circle cx="670" cy="500" r="35" fill="#fb923c" opacity="0.15"/>
+  <text x="670" y="497" font-family="system-ui,sans-serif" font-size="14" fill="#fb923c" text-anchor="middle" font-weight="700">1-2</text>
+  <text x="670" y="513" font-family="system-ui,sans-serif" font-size="9" fill="#fb923c" text-anchor="middle" font-weight="600">DAY INSTALL</text>
+</svg>

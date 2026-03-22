@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5ebe0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d5bdaf;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="door1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8d5c4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c4a882;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg1)"/>
+  <!-- Wall -->
+  <rect x="150" y="60" width="500" height="480" rx="4" fill="#ede0d4" stroke="#d6ccc2" stroke-width="2"/>
+  <!-- Door frame -->
+  <rect x="270" y="100" width="260" height="400" rx="3" fill="#8b7355" stroke="#6b5a3e" stroke-width="3"/>
+  <!-- Door -->
+  <rect x="280" y="108" width="240" height="384" rx="2" fill="url(#door1)"/>
+  <!-- Door panels -->
+  <rect x="300" y="130" width="200" height="100" rx="4" fill="none" stroke="#b8977a" stroke-width="2"/>
+  <rect x="300" y="260" width="200" height="100" rx="4" fill="none" stroke="#b8977a" stroke-width="2"/>
+  <rect x="300" y="390" width="200" height="80" rx="4" fill="none" stroke="#b8977a" stroke-width="2"/>
+  <!-- Door handle -->
+  <circle cx="490" cy="310" r="8" fill="#8b7355" stroke="#6b5a3e" stroke-width="2"/>
+  <rect x="484" y="298" width="12" height="6" rx="2" fill="#6b5a3e"/>
+  <!-- Floor -->
+  <rect x="150" y="500" width="500" height="40" fill="#d6ccc2"/>
+  <!-- Waterproof icon -->
+  <circle cx="660" cy="160" r="35" fill="#fb923c" opacity="0.15"/>
+  <path d="M650,145 Q660,170 670,145 Q660,135 650,145Z" fill="#fb923c" opacity="0.6"/>
+  <text x="660" y="185" font-family="system-ui,sans-serif" font-size="10" fill="#fb923c" text-anchor="middle" font-weight="600">WATERPROOF</text>
+</svg>

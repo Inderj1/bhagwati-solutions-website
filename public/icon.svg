@@ -1,0 +1,27 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #2c1a10; }
+      .house { stroke: white; fill: none; }
+      .letter { fill: white; }
+      .accent { fill: #fb923c; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #fb923c; }
+      .house { stroke: white; fill: none; }
+      .letter { fill: white; }
+      .accent { fill: white; }
+    }
+  </style>
+  <rect class="bg" width="180" height="180" rx="37"/>
+  <!-- House roof -->
+  <polygon class="house" points="90,30 35,72 145,72" stroke-width="5" stroke-linejoin="round"/>
+  <!-- House body -->
+  <rect class="house" x="48" y="72" width="84" height="68" rx="3" stroke-width="5"/>
+  <!-- Door -->
+  <rect class="accent" x="75" y="96" width="30" height="44" rx="3"/>
+  <!-- Door handle -->
+  <circle class="bg" cx="99" cy="120" r="3"/>
+  <!-- B letter below -->
+  <text class="letter" x="90" y="168" font-family="system-ui,sans-serif" font-size="28" font-weight="700" text-anchor="middle">B</text>
+</svg>
