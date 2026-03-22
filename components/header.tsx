@@ -65,6 +65,7 @@ export function Header() {
         <div className="hidden md:flex items-center gap-3">
           <a
             href="tel:+919999886780"
+            aria-label="Call Bhagwati Home Solutions at +91 99998 86780"
             className={cn(
               "inline-flex items-center gap-2 text-sm px-5 py-2.5 transition-all duration-300",
               "bg-[rgb(251,146,60)] text-white border border-[rgb(251,146,60)] hover:bg-[rgb(234,128,42)] hover:border-[rgb(234,128,42)]",
@@ -123,6 +124,7 @@ export function Header() {
 
           <a
             href="tel:+919999886780"
+            aria-label="Call Bhagwati Home Solutions"
             className="inline-flex items-center justify-center gap-2 text-sm px-5 py-2.5 bg-[rgb(251,146,60)] text-white hover:bg-[rgb(234,128,42)] transition-all duration-300 mb-4"
             onClick={closeMobileMenu}
           >

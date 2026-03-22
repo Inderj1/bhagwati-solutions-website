@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+import Image from "next/image"
 import { HighlightedText } from "./highlighted-text"
 
 const values = [
@@ -64,10 +65,13 @@ export function Philosophy() {
             </h2>
 
             <div className="relative hidden lg:block">
-              <img
+              <Image
                 src="/images/about-interior-new.png"
-                alt="Modern home interior with PVC doors, false ceiling and wall panels"
+                alt="Bhagwati Home Solutions showroom — PVC doors, false ceiling and wall panels installation in Faridabad"
+                width={600}
+                height={400}
                 className="opacity-90 relative z-10 w-full"
+                sizes="(min-width: 1024px) 50vw, 0vw"
               />
             </div>
           </div>

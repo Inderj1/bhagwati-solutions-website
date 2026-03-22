@@ -1,0 +1,23 @@
+{
+  "name": "Bhagwati Home Solutions — PVC Doors, UPVC Windows & Modular Kitchens Faridabad",
+  "short_name": "Bhagwati Home",
+  "description": "Authorized Sintex distributor in Faridabad. PVC doors, UPVC windows, false ceilings, wall panels & modular kitchens at best prices.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f0eb",
+  "theme_color": "#1a1a1a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-light-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "shopping", "home improvement"]
+}

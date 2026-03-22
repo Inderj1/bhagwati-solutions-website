@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+import Image from "next/image"
 import { ArrowDown, Shield, Clock, Award } from "lucide-react"
 
 export function Hero() {
@@ -86,10 +87,13 @@ export function Hero() {
     >
       {/* Background image */}
       <div className="absolute inset-0 z-0">
-        <img
+        <Image
           src="/images/hously-1.png"
-          alt="Modern living room interior"
-          className="w-full h-full object-cover object-center"
+          alt="Bhagwati Home Solutions — modern home interior with PVC doors and false ceiling in Faridabad"
+          fill
+          priority
+          className="object-cover object-center"
+          sizes="100vw"
         />
       </div>
 

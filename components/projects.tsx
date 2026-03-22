@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
+import Image from "next/image"
 import { ArrowUpRight } from "lucide-react"
 
 const products = [
@@ -109,12 +110,14 @@ export function Projects() {
               onMouseLeave={() => setHoveredId(null)}
             >
               <div ref={(el) => { imageRefs.current[index] = el }} className="relative overflow-hidden aspect-[4/3] mb-6">
-                <img
+                <Image
                   src={product.image}
-                  alt={product.title}
-                  className={`w-full h-full object-cover transition-transform duration-700 ${
+                  alt={`${product.title} — ${product.description} | Bhagwati Home Solutions Faridabad`}
+                  fill
+                  className={`object-cover transition-transform duration-700 ${
                     hoveredId === product.id ? "scale-105" : "scale-100"
                   }`}
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                 />
                 <div
                   className="absolute inset-0 bg-primary origin-top"

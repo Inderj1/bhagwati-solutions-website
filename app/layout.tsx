@@ -121,6 +121,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="preconnect" href="https://www.google.com" />
+        <link rel="preconnect" href="https://maps.googleapis.com" />
+        <link rel="dns-prefetch" href="https://www.google.com" />
+        <link rel="dns-prefetch" href="https://maps.googleapis.com" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#1a1a1a" />
+        <meta name="geo.region" content="IN-HR" />
+        <meta name="geo.placename" content="Faridabad" />
+        <meta name="geo.position" content="28.410;77.312" />
+        <meta name="ICBM" content="28.410, 77.312" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -280,6 +290,61 @@ export default function RootLayout({
                 },
               ],
             }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Bhagwati Home Solutions",
+              url: siteUrl,
+              potentialAction: {
+                "@type": "SearchAction",
+                target: `${siteUrl}/?q={search_term_string}`,
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "Review",
+                itemReviewed: { "@type": "LocalBusiness", name: "Bhagwati Home Solutions" },
+                author: { "@type": "Person", name: "Rajesh Kumar" },
+                reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+                reviewBody: "Got Sintex PVC doors installed in all three bathrooms. Outstanding quality, finished in a single day. Much cheaper than other shops.",
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "Review",
+                itemReviewed: { "@type": "LocalBusiness", name: "Bhagwati Home Solutions" },
+                author: { "@type": "Person", name: "Priya Sharma" },
+                reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+                reviewBody: "Renovated our entire kitchen with their modular kitchen solution. Design team was very helpful. The result looks stunning and fits our budget.",
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "Review",
+                itemReviewed: { "@type": "LocalBusiness", name: "Bhagwati Home Solutions" },
+                author: { "@type": "Person", name: "Amit Gupta" },
+                reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+                reviewBody: "PVC false ceiling in living room and bedrooms. Neat work, modern look, zero maintenance after over a year.",
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "Review",
+                itemReviewed: { "@type": "LocalBusiness", name: "Bhagwati Home Solutions" },
+                author: { "@type": "Person", name: "Sunita Verma" },
+                reviewRating: { "@type": "Rating", ratingValue: "4", bestRating: "5" },
+                reviewBody: "Top quality UPVC windows — rooms are much quieter and AC bills have gone down noticeably. Purchasing from them for over 5 years.",
+              },
+            ]),
           }}
         />
       </head>
