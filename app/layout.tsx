@@ -10,17 +10,19 @@ const siteUrl = "https://www.bhagwatihomesolutions.com"
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Bhagwati Home Solutions — PVC Doors, UPVC Windows, False Ceilings & Modular Kitchens in Faridabad",
+    default: "Bhagwati Home Solutions — PVC Doors, UPVC Windows, False Ceilings, Wall Panelling, PVC Kitchens & Wardrobes in Faridabad",
     template: "%s | Bhagwati Home Solutions Faridabad",
   },
   description:
-    "Authorized Sintex distributor in Faridabad since 2000. 25+ years of expertise in PVC doors, UPVC windows & doors, PVC false ceilings, wall panels, modular kitchens & home furniture. Best prices in Delhi NCR. Call +91 99998 86780 for a free quote.",
+    "Authorized Sintex distributor in Faridabad since 2000. 25+ years of expertise in PVC doors, UPVC windows & doors, PVC false ceilings, wall panelling, PVC modular kitchens & PVC wardrobes. Best prices in Delhi NCR. Call +91 99998 86780 for a free quote.",
   keywords: [
     "PVC doors Faridabad",
     "UPVC windows Faridabad",
     "PVC false ceiling Faridabad",
     "PVC wall panels Faridabad",
-    "modular kitchen Faridabad",
+    "PVC modular kitchen Faridabad",
+    "PVC wardrobe Faridabad",
+    "PVC wardrobe near me",
     "Sintex doors Faridabad",
     "Sintex PVC doors",
     "Sintex authorized dealer Faridabad",
@@ -39,7 +41,9 @@ export const metadata: Metadata = {
     "home solutions Faridabad",
     "Bhagwati Home Solutions",
     "best PVC doors in Faridabad",
-    "affordable modular kitchen Faridabad",
+    "affordable PVC modular kitchen Faridabad",
+    "PVC work Faridabad",
+    "all PVC works near me",
     "home interior Faridabad",
     "PVC ceiling Faridabad",
     "UPVC doors and windows Delhi NCR",
@@ -60,9 +64,9 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: siteUrl,
     siteName: "Bhagwati Home Solutions",
-    title: "Bhagwati Home Solutions — PVC Doors, UPVC Windows, False Ceilings & Modular Kitchens in Faridabad",
+    title: "Bhagwati Home Solutions — PVC Doors, UPVC Windows, False Ceilings, Wall Panelling, PVC Kitchens & Wardrobes in Faridabad",
     description:
-      "Authorized Sintex distributor in Faridabad since 2000. Premium PVC doors, UPVC windows, false ceilings, wall panels & modular kitchens at best prices. Free consultation & expert installation.",
+      "Authorized Sintex distributor in Faridabad since 2000. PVC doors, UPVC windows, false ceilings, wall panelling, PVC modular kitchens & wardrobes at best prices. Free consultation & expert installation.",
     images: [
       {
         url: "/images/hously-1.png",
@@ -74,9 +78,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bhagwati Home Solutions — PVC Doors, UPVC Windows & Modular Kitchens in Faridabad",
+    title: "Bhagwati Home Solutions — All PVC Works in Faridabad | Doors, Windows, Ceilings, Kitchens & Wardrobes",
     description:
-      "Authorized Sintex distributor. 25+ years expertise in PVC doors, UPVC windows, false ceilings, wall panels & modular kitchens. Best prices in Delhi NCR.",
+      "Authorized Sintex distributor. 25+ years expertise in PVC doors, UPVC windows, false ceilings, wall panelling, PVC modular kitchens & wardrobes. Best prices in Delhi NCR.",
     images: ["/images/hously-1.png"],
   },
   robots: {
@@ -141,7 +145,7 @@ export default function RootLayout({
               name: "Bhagwati Home Solutions & Distributing Company",
               alternateName: "Bhagwati Home Solutions",
               description:
-                "Authorized Sintex distributor in Faridabad since 2000. PVC doors, UPVC windows & doors, PVC false ceilings, wall panels, modular kitchens & home furniture at best prices in Delhi NCR.",
+                "Authorized Sintex distributor in Faridabad since 2000. PVC doors, UPVC windows & doors, PVC false ceilings, wall panelling, PVC modular kitchens & PVC wardrobes at best prices in Delhi NCR.",
               url: siteUrl,
               telephone: "+919999886780",
               email: "",
@@ -206,13 +210,13 @@ export default function RootLayout({
                   },
                   {
                     "@type": "OfferCatalog",
-                    name: "Modular Kitchens",
-                    description: "Fully customized modular kitchen layouts with premium hardware and fittings.",
+                    name: "PVC Modular Kitchens",
+                    description: "Durable, waterproof PVC modular kitchen layouts with premium hardware and fittings.",
                   },
                   {
                     "@type": "OfferCatalog",
-                    name: "Home Furniture",
-                    description: "Living room, bedroom & storage furniture built with durable PVC and UPVC materials.",
+                    name: "PVC Wardrobes",
+                    description: "Custom-built, termite-proof PVC wardrobes for bedrooms and storage spaces.",
                   },
                 ],
               },

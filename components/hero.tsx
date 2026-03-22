@@ -156,7 +156,7 @@ export function Hero() {
             }}
           >
             <p className="text-white/75 text-base md:text-lg lg:text-xl max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed" style={{ textShadow: "0 1px 8px rgba(0,0,0,0.5)" }}>
-              PVC Doors, UPVC Windows, False Ceilings, Wall Panels &amp; Modular Kitchens — all under one roof in Faridabad.
+              PVC Doors, UPVC Windows, False Ceilings, Wall Panelling, PVC Modular Kitchens &amp; Wardrobes — all under one roof in Faridabad.
             </p>
           </div>
 
