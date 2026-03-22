@@ -37,7 +37,7 @@ const faqs = [
   {
     question: "How can I get a price quote?",
     answer:
-      "Getting a quote is simple. You can call us at +91 9999886780, WhatsApp us, or visit our showroom at SCO 84-85, Kesar Building, Huda Market, Sector 16, Faridabad. For accurate pricing, we recommend a free site visit where our team can take measurements and suggest the best solutions for your budget.",
+      "Getting a quote is simple. You can call us at +91 9667494039, WhatsApp us, or visit our showroom at SCO 84-85, Kesar Building, Huda Market, Sector 16, Faridabad. For accurate pricing, we recommend a free site visit where our team can take measurements and suggest the best solutions for your budget.",
   },
 ]
 

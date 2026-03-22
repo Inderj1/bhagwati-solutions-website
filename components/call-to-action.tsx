@@ -22,7 +22,7 @@ export function CallToAction() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <a
-              href="https://wa.me/919999886780?text=Hi%2C%20I%20am%20interested%20in%20your%20home%20solutions.%20Please%20share%20details."
+              href="https://wa.me/919667494039?text=Hi%2C%20I%20am%20interested%20in%20your%20home%20solutions.%20Please%20share%20details."
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Chat with Bhagwati Home Solutions on WhatsApp"
@@ -33,12 +33,12 @@ export function CallToAction() {
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
-              href="tel:+919999886780"
-              aria-label="Call Bhagwati Home Solutions at +91 99998 86780"
+              href="tel:+919667494039"
+              aria-label="Call Bhagwati Home Solutions at +91 96674 94039"
               className="inline-flex items-center justify-center gap-2 border border-primary-foreground/30 px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
             >
               <Phone className="w-4 h-4" />
-              +91 99998 86780
+              +91 96674 94039
             </a>
           </div>
 
@@ -53,7 +53,7 @@ export function CallToAction() {
             </div>
             <div>
               <h4 className="font-medium text-primary-foreground mb-2">Call Us</h4>
-              <p>+91 99998 86780</p>
+              <p>+91 96674 94039</p>
               <p>+91 85878 06681</p>
             </div>
             <div>

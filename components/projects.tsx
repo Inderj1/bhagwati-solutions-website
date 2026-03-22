@@ -91,7 +91,7 @@ export function Projects() {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Our Products</h2>
           </div>
           <a
-            href="https://wa.me/919999886780?text=Hi%2C%20I%20want%20to%20know%20about%20your%20product%20range."
+            href="https://wa.me/919667494039?text=Hi%2C%20I%20want%20to%20know%20about%20your%20product%20range."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group"

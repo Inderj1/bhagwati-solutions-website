@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s | Bhagwati Home Solutions Faridabad",
   },
   description:
-    "Authorized Sintex distributor in Faridabad since 2009. 17+ years of expertise in PVC doors, UPVC windows & doors, PVC false ceilings, wall panelling, PVC modular kitchens & PVC wardrobes. Best prices in Delhi NCR. Call +91 99998 86780 for a free quote.",
+    "Authorized Sintex distributor in Faridabad since 2009. 17+ years of expertise in PVC doors, UPVC windows & doors, PVC false ceilings, wall panelling, PVC modular kitchens & PVC wardrobes. Best prices in Delhi NCR. Call +91 96674 94039 for a free quote.",
   keywords: [
     "PVC doors Faridabad",
     "UPVC windows Faridabad",
@@ -147,7 +147,7 @@ export default function RootLayout({
               description:
                 "Authorized Sintex distributor in Faridabad since 2009. PVC doors, UPVC windows & doors, PVC false ceilings, wall panelling, PVC modular kitchens & PVC wardrobes at best prices in Delhi NCR.",
               url: siteUrl,
-              telephone: "+919999886780",
+              telephone: "+919667494039",
               email: "",
               foundingDate: "2009",
               priceRange: "₹₹",
@@ -182,7 +182,7 @@ export default function RootLayout({
                 closes: "19:00",
               },
               sameAs: [
-                "https://wa.me/919999886780",
+                "https://wa.me/919667494039",
               ],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
@@ -289,7 +289,7 @@ export default function RootLayout({
                   name: "How can I get a price quote?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Call us at +91 9999886780, WhatsApp us, or visit our showroom at SCO 84-85, Kesar Building, Huda Market, Sector 16, Faridabad. We also offer free site visits for accurate pricing.",
+                    text: "Call us at +91 9667494039, WhatsApp us, or visit our showroom at SCO 84-85, Kesar Building, Huda Market, Sector 16, Faridabad. We also offer free site visits for accurate pricing.",
                   },
                 },
               ],
