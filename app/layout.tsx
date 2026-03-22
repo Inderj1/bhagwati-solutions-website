@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s | Bhagwati Home Solutions Faridabad",
   },
   description:
-    "Authorized Sintex distributor in Faridabad since 2000. 25+ years of expertise in PVC doors, UPVC windows & doors, PVC false ceilings, wall panelling, PVC modular kitchens & PVC wardrobes. Best prices in Delhi NCR. Call +91 99998 86780 for a free quote.",
+    "Authorized Sintex distributor in Faridabad since 2009. 17+ years of expertise in PVC doors, UPVC windows & doors, PVC false ceilings, wall panelling, PVC modular kitchens & PVC wardrobes. Best prices in Delhi NCR. Call +91 99998 86780 for a free quote.",
   keywords: [
     "PVC doors Faridabad",
     "UPVC windows Faridabad",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     siteName: "Bhagwati Home Solutions",
     title: "Bhagwati Home Solutions — PVC Doors, UPVC Windows, False Ceilings, Wall Panelling, PVC Kitchens & Wardrobes in Faridabad",
     description:
-      "Authorized Sintex distributor in Faridabad since 2000. PVC doors, UPVC windows, false ceilings, wall panelling, PVC modular kitchens & wardrobes at best prices. Free consultation & expert installation.",
+      "Authorized Sintex distributor in Faridabad since 2009. PVC doors, UPVC windows, false ceilings, wall panelling, PVC modular kitchens & wardrobes at best prices. Free consultation & expert installation.",
     images: [
       {
         url: "/images/hously-1.png",
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bhagwati Home Solutions — All PVC Works in Faridabad | Doors, Windows, Ceilings, Kitchens & Wardrobes",
     description:
-      "Authorized Sintex distributor. 25+ years expertise in PVC doors, UPVC windows, false ceilings, wall panelling, PVC modular kitchens & wardrobes. Best prices in Delhi NCR.",
+      "Authorized Sintex distributor. 17+ years expertise in PVC doors, UPVC windows, false ceilings, wall panelling, PVC modular kitchens & wardrobes. Best prices in Delhi NCR.",
     images: ["/images/hously-1.png"],
   },
   robots: {
@@ -145,11 +145,11 @@ export default function RootLayout({
               name: "Bhagwati Home Solutions & Distributing Company",
               alternateName: "Bhagwati Home Solutions",
               description:
-                "Authorized Sintex distributor in Faridabad since 2000. PVC doors, UPVC windows & doors, PVC false ceilings, wall panelling, PVC modular kitchens & PVC wardrobes at best prices in Delhi NCR.",
+                "Authorized Sintex distributor in Faridabad since 2009. PVC doors, UPVC windows & doors, PVC false ceilings, wall panelling, PVC modular kitchens & PVC wardrobes at best prices in Delhi NCR.",
               url: siteUrl,
               telephone: "+919999886780",
               email: "",
-              foundingDate: "2000",
+              foundingDate: "2009",
               priceRange: "₹₹",
               currenciesAccepted: "INR",
               paymentAccepted: "Cash, UPI, Bank Transfer",

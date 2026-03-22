@@ -12,7 +12,7 @@ export function Footer() {
               <Image src="/images/bhagwati-logo.svg" alt="Bhagwati Home Solutions" width={180} height={40} className="w-auto h-8" />
             </Link>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Your trusted partner for PVC doors, UPVC windows, false ceilings, wall panelling, PVC modular kitchens, and wardrobes in Faridabad. Authorized Sintex distributor since 2000.
+              Your trusted partner for PVC doors, UPVC windows, false ceilings, wall panelling, PVC modular kitchens, and wardrobes in Faridabad. Authorized Sintex distributor since 2009.
             </p>
           </div>
 

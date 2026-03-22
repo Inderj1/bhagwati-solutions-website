@@ -124,7 +124,7 @@ export function Hero() {
             }}
           >
             <span className="inline-block text-xs md:text-sm tracking-[0.35em] uppercase text-orange-300/90 mb-5 md:mb-6 px-4 py-1.5 border border-orange-300/20 rounded-full backdrop-blur-md bg-black/30" style={{ textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>
-              Authorized Sintex Distributor &bull; Since 2000
+              Authorized Sintex Distributor &bull; Since 2009
             </span>
           </div>
 
@@ -198,13 +198,13 @@ export function Hero() {
             }}
           >
             <div className="inline-flex flex-wrap justify-center gap-4 md:gap-0 bg-black/40 backdrop-blur-md rounded-xl border border-white/10 px-4 py-4 md:px-2 md:py-3">
-              {/* 25+ Years */}
+              {/* 17+ Years */}
               <div className="flex items-center gap-3 px-4 md:px-6">
                 <div className="w-9 h-9 md:w-10 md:h-10 rounded-lg bg-orange-400/15 flex items-center justify-center flex-shrink-0">
                   <Clock className="w-4 h-4 md:w-5 md:h-5 text-orange-300" />
                 </div>
                 <div className="text-left">
-                  <span className="text-lg md:text-xl font-bold text-white leading-none">25+</span>
+                  <span className="text-lg md:text-xl font-bold text-white leading-none">17+</span>
                   <p className="text-[10px] md:text-xs text-white/50 uppercase tracking-wider mt-0.5">Years Exp.</p>
                 </div>
               </div>

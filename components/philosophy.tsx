@@ -23,7 +23,7 @@ const values = [
   {
     title: "Customer First",
     description:
-      "From your first consultation to post-installation support, we are with you every step. Our 25+ years in business are built on relationships, not just transactions.",
+      "From your first consultation to post-installation support, we are with you every step. Our 17+ years in business are built on relationships, not just transactions.",
   },
 ]
 
@@ -79,7 +79,7 @@ export function Philosophy() {
           {/* Right column - Story and values */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-4">
-              Since 2000, Bhagwati Home Solutions has been transforming homes across Faridabad and Delhi NCR with premium PVC and UPVC products.
+              Since 2009, Bhagwati Home Solutions has been transforming homes across Faridabad and Delhi NCR with premium PVC and UPVC products.
             </p>
             <p className="text-muted-foreground text-base leading-relaxed max-w-md mb-12">
               What started as a small distribution business in Sector 16 has grown into a one-stop destination for PVC doors, UPVC windows, false ceilings, wall panelling, PVC modular kitchens, and wardrobes. As an authorized Sintex distributor, we bring you genuine products with expert installation — all at factory-direct prices.
